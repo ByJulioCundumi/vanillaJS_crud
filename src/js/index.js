@@ -1,1 +1,3 @@
-import "./app.js";
+import "./insert.js"
+import "./data.js"
+import "./update.js"
