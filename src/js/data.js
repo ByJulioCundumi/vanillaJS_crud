@@ -38,6 +38,7 @@ function deleteUser(){
       //
       const res = await fetch("http://localhost:3000/api/users/" + id, {method: "delete"})
       window.location.href = "../views/data.html";
+      alert("Se elimino un usuario exitosamente :)")
     }
   });
 }

@@ -27,6 +27,7 @@ async function post(data){
         })
         const server = await res.json();
         console.log(server)
+        alert("Se agrego un usuario exitosamente :)")
     } catch (error) {
         console.log(error)
     }

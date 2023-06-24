@@ -47,6 +47,7 @@ async function updateUser(data) {
       body: JSON.stringify(data),
     });
     window.location.href = "../views/data.html";
+    alert("Se actualizo un usuario exitosamente :)")
   } catch (error) {
     console.log(error)
   }
