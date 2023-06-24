@@ -8,7 +8,7 @@
 </head>
 <body>
   <section class="container">
-    <a href="views/data.html" class="link">
+    <a href="./views/data.html" class="link">
       Ver datos
     </a>
     
@@ -17,16 +17,16 @@
 
       <div class="inputs">
         <div class="firstname">
-          <input class="input" type="text" name="firstname" placeholder="Nombre">
+          <input class="input" required type="text" id="firstname" placeholder="Nombre">
         </div>
         <div class="lastname">
-          <input class="input" type="text" name="lastname" placeholder="Apellidos">
+          <input class="input" required type="text" id="lastname" placeholder="Apellidos">
         </div>
         <div class="email">
-          <input class="input" type="email" name="email" placeholder="Email">
+          <input class="input" required type="email" id="email" placeholder="Email">
         </div>
         <div class="password">
-          <input class="input" type="text" name="password" placeholder="Contraseña">
+          <input class="input" required type="password" id="pass" placeholder="Contraseña">
         </div>
       </div>
 
@@ -37,6 +37,6 @@
 
   </section>
 
-  <script src="./js/index.js" type="module"></script>
+  <script src="./js/insert.js"></script>
 </body>
 </html>

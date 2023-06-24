@@ -16,18 +16,17 @@
       <h1 class="update__title">Actualizar usuario</h1>
 
       <div class="update__inputs">
-        <input type="hidden" name="id" value="">
         <div class="update__firstname">
-          <input class="update__input" type="text" name="firstname" placeholder="Nombre">
+          <input class="update__input" required type="text" id="firstname" placeholder="Nombre">
         </div>
         <div class="update__lastname">
-          <input class="update__input" type="text" name="lastname" placeholder="Apellidos">
+          <input class="update__input" required type="text" id="lastname" placeholder="Apellidos">
         </div>
         <div class="update__email">
-          <input class="update__input" type="email" name="email" placeholder="Email">
+          <input class="update__input" required type="email" id="email" placeholder="Email">
         </div>
         <div class="update__password">
-          <input class="update__input" type="text" name="password" placeholder="Contraseña">
+          <input class="update__input" required type="text" id="pass" placeholder="Contraseña">
         </div>
       </div>
 
@@ -38,6 +37,6 @@
 
   </section>
 
-
+  <script src="../js/update.js"></script>
 </body>
 </html>
